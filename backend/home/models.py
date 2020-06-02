@@ -63,6 +63,7 @@ class Test(models.Model):
 class Testtt(models.Model):
     "Generated Model"
     testt = models.BinaryField()
+    jhjh = models.BigIntegerField(null=True, blank=True,)
 
 
 class Testing(models.Model):
