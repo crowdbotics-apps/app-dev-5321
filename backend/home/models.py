@@ -7,7 +7,6 @@ from django.db import models
 
 
 class CustomText(models.Model):
-    title = models.CharField(max_length=150,)
     name = models.BinaryField(null=True, blank=True,)
     test = models.ForeignKey(
         "users.User",
@@ -63,7 +62,6 @@ class Test(models.Model):
 class Testtt(models.Model):
     "Generated Model"
     testt = models.BinaryField()
-    jhjh = models.BigIntegerField(null=True, blank=True,)
 
 
 class Testing(models.Model):
